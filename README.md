@@ -1,0 +1,186 @@
+List Operations in Python: Sum of List Items
+🎯 Aim
+```
+To write a Python program that calculates the sum of all elements in a list.
+```
+🧠 Algorithm
+```
+1.Define a list of numbers.
+2.Use Python’s built-in sum() function to calculate the total.
+3.Print the result.
+```
+🧾 Program
+```
+numbers = [14, 16, 18, 22]
+total = sum(numbers)
+print(total)
+
+```
+Output
+
+<img width="876" height="156" alt="530064394-56b25616-3f2a-4b44-a81f-9c6d730514ed" src="https://github.com/user-attachments/assets/3c5142d2-4066-4fc6-abed-fbec34434b16" />
+
+Result
+Thus , the program has been executed succesfully.
+Regex in Python: Filter Words Without the Letter 'e'
+🎯 Aim
+```
+To write a Python program that filters out and returns all elements from a list that do not contain the letter 'e', using regular expressions (regex).
+
+```
+🧠 Algorithm
+```
+1.Import the re module.
+2.Initialize an empty list l1 to store results.
+3.Define a list of words:
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+4.Iterate through each word in the list:
+ *Use re.search(r"e", i) to check if the word contains 'e'.
+ *If not, append the word to l1.
+5.Print the final filtered list.
+```
+🧾 Program
+```
+
+import re
+l1 = []
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+for i in items:
+    if not re.search(r"e", i):
+        l1.append(i)
+print(l1)
+```
+Output
+
+
+<img width="824" height="160" alt="530064715-3f5c22cb-77b7-41d9-a59c-c31a4366b254" src="https://github.com/user-attachments/assets/5cab9430-5353-442e-810f-53251075bcc1" />
+
+
+Result
+Thus , the program has been executed succesfully.
+
+🧹 Strings-Remove Nth Index Character from a String
+🎯 Aim
+To write a Python program that accepts a string and removes the character at a specified index.
+🧠 Algorithm
+```
+1.Define a function named remove that takes the input string as an argument.
+2.Read the index n from the user input.
+3.Initialize an empty string a to store the new string.
+4.Iterate over each index of the string using a for loop.
+5.Check if the current index i is not equal to n.
+6.If i != n, append the character at index i to string a.
+7.After the loop, return the modified string a.
+8.Print the final result.
+```
+💻 Program
+```
+def remove(string):
+    n = int(input())
+    a = ""
+    for i in range(len(string)):
+        if i != n:
+            a += string[i]
+    print(a)
+```
+Output
+
+<img width="849" height="199" alt="530064908-8dd452a9-e5ea-412b-89c6-6788c128d856" src="https://github.com/user-attachments/assets/54522c86-a0fc-49e7-ade2-63009e1923d6" />
+
+Result
+Thus , the program has been executed succesfully.
+Strings-Palindrome Check in Python (Without Built-in Functions)
+🎯 Aim
+```
+To write a Python program to check whether the string "google" is a palindrome or not, without using built-in palindrome checking functions.
+```
+🧠 Algorithm
+```
+1.Assign the string "google" to a variable.
+2.Reverse the string manually using slicing ([::-1]).
+3.Compare the original string with the reversed string.
+*If they are equal, print that the string is a palindrome.
+*Otherwise, print that it is not a palindrome.
+4.Execute the program.
+```
+🧾 Program
+```
+string = "google"
+reversed_string = string[::-1]
+if string == reversed_string:
+    print(f"{string} is a palindrome.")
+else:
+    print(f"{string} is not a palindrome.")
+```
+Output
+
+<img width="363" height="97" alt="530065487-fe8a968d-b877-41d2-95e1-b21744cf3d94" src="https://github.com/user-attachments/assets/c0314839-fb16-4792-a80c-fb0d4524f5b9" />
+
+Result
+Thus , the program has been executed succesfully.
+Tuple in Python: Check Element Existence
+🎯 Aim
+```
+To write a Python program that checks if the element 'n' and the element 8 exist within a given tuple.
+```
+🧠 Algorithm
+```
+1.Define a tuple x with some letters and numbers.
+2.Use the in operator to check if the string 'n' exists within the tuple.
+3.Use the in operator to check if the integer 8 exists within the tuple.
+4.Print the results.
+```
+🧾 Program
+```
+x=("s", 8, "a", "v", "n", "g", "u", "r", "c", "e")
+print("n" in a)
+print(8 in a)
+```
+Output
+
+<img width="545" height="178" alt="530065869-5a726eee-fb7f-4868-addb-4ad93966f32e" src="https://github.com/user-attachments/assets/9f21440d-f9f5-4d92-99d5-e24ff759e08b" />
+
+Result
+Thus , the program has 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
